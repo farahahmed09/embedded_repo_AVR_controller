@@ -42,7 +42,7 @@ ISR(TIMER1_OVF_vect)
  *                      Functions Definition                                  *
  *******************************************************************************/
 
- void Timer1_init(const TIMER1_ConfigType * Config_Ptr)
+ void Timer1_init(const Timer1_ConfigType * Config_Ptr)
  {
 	 /*
 	  * - set timer1 initial value

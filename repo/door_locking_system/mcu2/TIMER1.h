@@ -32,14 +32,14 @@ typedef struct
     uint16 compare_value;
 
 
-}TIMER1_ConfigType;
+}Timer1_ConfigType;
 
 
 /*******************************************************************************
  *                      Functions prototypes                                 *
  *******************************************************************************/
 
-void Timer1_init(const TIMER1_ConfigType * Config_Ptr);
+void Timer1_init(const Timer1_ConfigType * Config_Ptr);
 void Timer1_deInit(void);
 void Timer1_setCallBack(void(*a_ptr)(void));
 #endif /* TIMER1_H_ */

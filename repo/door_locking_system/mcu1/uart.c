@@ -51,11 +51,7 @@ void UART_init(const UART_ConfigType * Config_Ptr)
 	 ***********************************************************************/
 	UCSRC=0;
 	UCSRC = (1<<URSEL);
-	/*UCSRC = (UCSRC & 0X80)|((Config_Ptr->parity)<<4);
-	UCSRC = (UCSRC & 0XC0)|((Config_Ptr->stop_bit)<<3);
-	UCSRC=(UCSRC & 0Xf8)|((Config_Ptr->bit_data)&07);
 
-     */
      UCSRC =((Config_Ptr->parity)<<4) | ((Config_Ptr->stop_bit)<<3) | ((Config_Ptr->bit_data)&07);
 
 	/* Calculate the UBRR register value */
