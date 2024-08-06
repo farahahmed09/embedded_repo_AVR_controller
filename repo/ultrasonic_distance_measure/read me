@@ -1,0 +1,2 @@
+A systemthat accurately measures distances with precision and efficiency. systemusing the ATmega32 microcontroller.
+Drivers implemented: GPIO , ICU , Ultrasonic sensor , LCD
