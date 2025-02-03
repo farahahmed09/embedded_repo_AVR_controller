@@ -1,0 +1,5 @@
+• Implemented a security system to unlock a door using a password.
+• utilizing two ATmega32 microcontrollers based on a layered architecture model:
+  - HMI_ECU (Human Machine Interface): Managed user interaction with a 2x16 LCD and 4x4 keypad.
+  - Control_ECU: Handled password verification, door control with a DC motor, and system alarms using EEPROM and a buzzer.
+• Drivers: GPIO, Keypad, LCD, Timer, UART, 12C, EEPROM, Buzzer and DC-Motor Microcontroller ATmega32
